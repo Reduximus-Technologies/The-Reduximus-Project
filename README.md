@@ -1,12 +1,22 @@
 # The-Reduximus-Project
+*****THIS PROJECT WILL NOT ASSIST IN EXPLOITING THE XBOX. WE WILL NOT PROVIDE RC4 KEYS OR TEA MATERIALS. ALL CODE IS OUR OWN AND WE RESERVE THE RIGHT WITHDRAWL ACCESS TO PERSONS ATTEMPTING TO VIOLATE OUR TERMS OF SERVICE.****
 
+(C) 2026 REDUXIMUS TECHNOLOGIES LLC.
 
-The Reduximus Project (TRP) seeks to updated retro consoles with newer technolgy, giving them a new lease on life. Our first project is the Original Xbox. 
+The Reduximus Project is an inclusive fully customized reimplementaiton of the original Xbox. There are multiple facets to this project. There are three seperate major items that make up The Reduximus Project:
+1. Reduxichip: LPC based authencicaiton chip which runs the system, it handles authentication, and FBL layers of the boot process.
+2. ReduximOS: Operating Systems that directly interacts and acts as a hypervisor for the Xbox. This is also the OS that the user interacts with when customizing the settings they wish for thier Xbox to have. The OS has mutiple security lavyers to directly protect it and Microsoft's hardware from being exploited. This OS is also what handles the 2BL of the boot process.
+3. Kerduximus: a fully customized kernel which handles all hardware directions provided to the Xbox. This kernel is customizeable by the user using ReduximOS.
 
-TRP OG XBox
-1. Updated Modchip- The Reduxichip hosts 2 RP2040s and 1 ESP-32. The RP2040s serve two purposes, the first RP2040 runs the mod chip. The second RP2040 acts an enviromental supervisor for the other boards, ensuring they have intialized properly and reporting the status to the user via the imbeded OLED.
-2. WiFi Adapter- The Reduximus WiFi adapter, is a custom designed PCB that fits perfectly into the holes left when the ethernet port of the OG Xbox is removed. It is powered by a ESP-32 and has a custom PHY designed to translate the WiFi signal into ethernet signal that the OG Xbox can understand.
-3. HDMI Adapter- The Reduximus HDMI adapter, is a custom built adapter that connects to the Reduxichip for logical interface communication and status. It has its own video translation chips on board and boasts a flex cable that allows the user to remove thier OG Xbox video encoder and solder the flex cable directly to the motherboard. Then the Video Encoder is soldered to the HDMI adapter. This allows for a cleaner less stressful installation.
-4. Bluetooth Controller Board- The Blueduximus controller board is a custom designed Bluetooth board that allows for bluetooth controllers to connect to the OG Xbox. This is accomplished by having an onboard usb conversion chip that converts the bluetooth logic from the controller and ESP-32s to USB for the OG Xbox to interpret.
+Future projects include:
+1. VIDUXIMUS: A full replacement for the Xbox Video Encoder that will perform upscaling to 1080i.
+2. LEDUIXMUS: A RBG LED devicew which fully supports user customized color schemes and light patterns.
+3. WIDUXIMUS: A Wifi enabled repacement or modificaton for the Xbox Ethernet Port. When finished it will support 802.11ax (WiFi-6) technologies.
 
-Stay tuned for more updates as this project comes to life and the boards are produced and tested. As this currently is an R and D project, all code and PCB designes will be posted here. However, the use license for this is simple, you will credt Reduximus Technologies in all uses of intellelectual property designed and distributed by Reduximus Technologies LLC. Failure to properly source and credit Reduximus Technologies for their work will result in coressponding legal action. 
+Current Progress as of April 2026
+Reduxichip Mainboard: Design Finalized, Prototype Built, Testing in Progress
+Reduxichip Firmware: Built, Compiled, Testing in Progress, Purchase options will become available in Winter 2026. At original purchase, it will serve as a modchip for the OG Xbox until ReduximOS is ready for incorporation.
+ReduximOS: Build in progress, Testing expected in Fall 2026, hoping to be ready at the end of spring 2027.
+Kerduximus: Build in progess, Testing expected in Winter of 2026, hoping to be ready by fall 2027. 
+
+Once all three products are ready, a public beta period will be announced on the reduixchip website https://www.reduximustechnologies.com/reduxichip

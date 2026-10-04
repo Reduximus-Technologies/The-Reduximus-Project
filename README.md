@@ -1,4 +1,8 @@
 # The-Reduximus-Project
+
+***UPDATE 10/4/26*** The Reduxichip Hardware is complete. The Reduxichip bootloader is complete. Kerduximus our custom Original Xbox Kernel written entirely in Rust is in development. 
+
+
 *****THIS PROJECT WILL NOT ASSIST IN EXPLOITING THE XBOX. WE WILL NOT PROVIDE RC4 KEYS OR TEA MATERIALS. ALL CODE IS OUR OWN AND WE RESERVE THE RIGHT WITHDRAWL ACCESS TO PERSONS ATTEMPTING TO VIOLATE OUR TERMS OF SERVICE.****
 
 (C) 2026 REDUXIMUS TECHNOLOGIES LLC.
